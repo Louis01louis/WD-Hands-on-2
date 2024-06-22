@@ -50,3 +50,44 @@ a:link {
         transform: translateY(-15px);
     }
 }
+
+.words{
+    height:100px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-size: 100px;
+}
+.description {
+    margin-left: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    width: 400px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
+}
+.picture {
+    border-radius: 20px;
+    width: 650px;
+    height: 980px;
+    position: absolute;
+    top: 33px;
+    left: 585px;
+    margin: 0 auto;
+}
+.picture:hover {
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+}

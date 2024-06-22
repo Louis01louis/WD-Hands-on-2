@@ -67,3 +67,11 @@ a:link {
     align-items: center;
     justify-content: center;
 }
+.wordss {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(5px);
+}
