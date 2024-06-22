@@ -110,3 +110,5 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | HTML and CSS basics and picture formating |              www.w3schools.com              |
+| Sample Title |              Image sources                |           https://ph.pinterest.com          |
+| Sample Title |              Image sources                |           https://www.uhdpaper.com          |

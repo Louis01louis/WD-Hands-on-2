@@ -1,0 +1,43 @@
+body {
+    background-image: url(../img/characters.jpg);
+    background-size: cover;
+}
+a:link {
+    text-decoration: none;
+  }
+
+.header-main {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background: #053c4d;
+    height: 100px;
+    }
+.imgL22 {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+.header-1 {
+    background-color: #045974;
+    border-radius: 20px;
+    width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+}
+.nav22_btn:hover {
+    background-color: rgba(255, 255, 255, 0.096);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+}
