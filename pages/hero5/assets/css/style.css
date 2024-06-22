@@ -2,3 +2,52 @@ body {
     background-image: url(../img/eisen.jpg);
     background-size: cover;
 }
+
+
+a:link {
+    text-decoration: none;
+    color: rgb(121, 217, 241);
+  }
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+.header-main {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.116);
+    height: 100px;
+    }
+.imgL22 {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+.header-1 {
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+}
+.nav22_btn:hover {
+    background-color: rgba(56, 247, 231, 0.692);
+    border-radius: 5px;
+    animation-name: bounce;
+    animation-duration: 0.5s;
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+}
