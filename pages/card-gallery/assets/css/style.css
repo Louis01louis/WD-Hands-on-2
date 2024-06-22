@@ -45,3 +45,35 @@ a:link {
         transform: translateY(-15px);
     }
 }
+
+
+
+.Fourth_Design {
+    font-family: system-ui;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #601abc;
+    height: 100px;
+    }
+.imgL4 {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+.Design_4 {
+    background-color: #c361db;
+    border-radius: 20px;
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+.shop-button {
+    position: absolute;
+    right: 50px;
+}
