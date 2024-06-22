@@ -50,3 +50,28 @@ a:link {
         transform: translateY(-15px);
     }
 }
+
+.description {
+    margin-left: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    width: 400px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
+}
+.description:hover {
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
+    animation-name: bounce;
+    animation-duration: 0.9s;
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+}
