@@ -50,9 +50,27 @@ a:link {
         transform: translateY(-15px);
     }
 }
-
-.description {
+.picture {
+    margin-top: 100px;
     margin-left: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    width: 400px;
+    font-size: 30px;
+    backdrop-filter: blur(5px);
+}
+.picture2 {
+    margin-left: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    width: 400px;
+    font-size: 30px;
+    backdrop-filter: blur(5px);
+}
+.description {
+    margin-left: 100px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 10px;
