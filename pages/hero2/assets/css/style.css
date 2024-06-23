@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/fern.jpg);
+    background-image: url(../img/fern.gif);
     background-size: cover;
 }
 
@@ -52,8 +52,19 @@ a:link {
     }
 }
 
-
+.picture {
+    margin-top: 100px;
+    margin-left: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    width: 400px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
+}
 .description {
+    margin-top: 50px;
     margin-left: 1400px;
     padding-left: 15px;
     padding-right: 15px;
