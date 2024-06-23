@@ -52,8 +52,16 @@ a:link {
     }
 }
 
-.description {
+.beer {
     margin-left: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    width: 400px;
+    font-size: 30px;
+}
+.description {
+    margin-left: 530px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 10px;
