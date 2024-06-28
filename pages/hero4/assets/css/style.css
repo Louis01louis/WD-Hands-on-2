@@ -1,6 +1,11 @@
+#header {
+    width: 100%;
+}
+
 body {
-    background-image: url(../img/heiter.jpg);
+    background: radial-gradient(#d8fad8, #85ec8d);
     background-size: cover;
+    
 }
 
 
@@ -52,16 +57,23 @@ a:link {
     }
 }
 
+.Heiter {
+    padding: 0px;
+    position: absolute;
+    top: 45%;
+}
 .beer {
-    margin-left: 1400px;
+    margin-left: 75%;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 10px;
-    width: 400px;
-    font-size: 30px;
+}
+.circle {
+    position: absolute;
+    top: 32.3%;
 }
 .description {
-    margin-left: 530px;
+    margin-left: 50%;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 10px;

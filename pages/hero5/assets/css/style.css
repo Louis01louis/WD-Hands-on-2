@@ -1,3 +1,7 @@
+#header {
+    width: 100%;
+}
+
 body {
     background-image: url(../img/eisen.jpg);
     background-size: cover;

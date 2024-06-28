@@ -1,6 +1,7 @@
 body {
     background-image: url(../img/frieren.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 a:link {
@@ -69,12 +70,12 @@ a:link {
     backdrop-filter: blur(5px);
 }
 .picture {
+    height: 99%;
+    width: 33.6%;
     border-radius: 20px;
-    width: 650px;
-    height: 980px;
     position: absolute;
-    top: 33px;
-    left: 585px;
+    top: 26.5px;
+    left: 31%;
     margin: 0 auto;
 }
 .picture:hover {
