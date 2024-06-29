@@ -3,8 +3,7 @@
 }
 
 body {
-    background-image: url(../img/eisen.jpg);
-    background-size: cover;
+    background-color: rgb(255, 104, 104);
 }
 
 
@@ -56,7 +55,15 @@ a:link {
     }
 }
 
-
+.Eisen {
+    padding: 0px;
+    position: absolute;
+    top: 20%;
+}
+.eisenn {
+    align-items: center;
+    margin-left: 33%;
+}
 .description {
     margin-left: 1400px;
     padding-left: 15px;
