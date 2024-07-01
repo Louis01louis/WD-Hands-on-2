@@ -75,34 +75,41 @@ a:link {
     top: 32.3%;
 }
 .name {
+    border-radius: 25px;
     margin: 0;
     width: 430px;
     margin-left: 50%;
     margin-top: 2%;
     font-size: 150px;
+    animation-name: shake;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
 }
 .name:hover {
     transition: shake 1s ease-in-out;
-    animation-name: shake;
+    animation-name: stop;
     animation-duration: .5s;
 }
 @keyframes shake{
-    0%{
-        transform-origin: top left;
+    ease-in-out
+    14%{
         transform: translateY(-15px);
     }
-    25%{
+    16%{
+        transform: rotate(-10deg);
+    }
+    30%{
         transform: translateY(15px);
     }
-    50%{
-        transform: translateX(0);
+    40%{
+        transform: rotate(10deg);
     }
-    75%{
-        transform: translateX(-10px);
-    }
-    100%{
-        transform: translateX(10px);
-    }
+}
+@keyframes stop {
+    10%   {background-color:rgb(25, 187, 187); transform: translateY(-15px);}
+    25%  {background-color:rgb(69, 200, 209); transform: translateX(-15px);}
+    30%  {background-color:rgb(149, 213, 238); transform: translateY(15px);}
+    35% {background-color:rgb(233, 251, 252); transform: translateX(15px);}
 }
 .description {
     margin-left: 50%;
