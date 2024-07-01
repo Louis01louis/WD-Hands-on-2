@@ -3,9 +3,8 @@
 }
 
 body {
-    background-image: url(../img/himmel.jpg);
+    background-color: rgb(29, 218, 243);
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 a:link {
@@ -55,27 +54,40 @@ a:link {
         transform: translateY(-15px);
     }
 }
-.picture {
-    margin-top: 100px;
-    margin-left: 1400px;
+
+.Himmel-back {
+    position: absolute;
+    top: 0;
+    left: 4%;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 10px;
     width: 400px;
     font-size: 30px;
-    backdrop-filter: blur(5px);
+}
+.himmel {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    width: 400px;
+    font-size: 30px;
 }
 .picture2 {
-    margin-left: 300px;
-    padding-left: 15px;
+    position: absolute;
+    top: 10%;
+    left: 12%;
     padding-right: 15px;
     border-radius: 10px;
     width: 400px;
     font-size: 30px;
-    backdrop-filter: blur(5px);
 }
 .description {
-    margin-left: 20%;
+    position: absolute;
+    top: 15%;
+    left: 61%;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 10px;
@@ -97,4 +109,16 @@ a:link {
     50%{
         transform: translateY(-15px);
     }
+}
+
+.Video {
+    position: absolute;
+    top: 60%;
+    left: 58%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    height: 350px;
+    width: 500px;
+    font-size: 30px;
 }

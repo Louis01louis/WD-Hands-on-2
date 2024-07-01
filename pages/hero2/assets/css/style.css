@@ -64,6 +64,16 @@ a:link {
     background-color: rgba(0, 0, 0, 0.116);
     backdrop-filter: blur(5px);
 }
+.name {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    border-radius: 25px;
+    margin: 0;
+    width: 300px;
+    font-size: 150px;
+    text-shadow: 2px 2px 2px black;
+}
 .description {
     margin-top: 50px;
     margin-left: 1400px;

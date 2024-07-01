@@ -94,7 +94,7 @@ a:link {
 
 .hiddenText2 {
     position: absolute;
-    top: 400px;
+    top: 450px;
     left: 300px;
     opacity: 0;
 }
@@ -138,6 +138,43 @@ a:link {
     100% {
         transform: translateX(500px);
         opacity: 1;
+    }
+}
+
+.name {
+    border-radius: 25px;
+    margin: 0;
+    width: 430px;
+    margin-left: 70%;
+    margin-top: 2%;
+    font-size: 150px;
+    animation-name: shake;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.name:hover {
+    transition: shake 1s ease-in-out;
+    animation-name: stop;
+    animation-duration: .5s;
+}
+@keyframes shake{
+    ease-in-out
+    14%{
+        transform: translateX(-15px);
+    }
+    16%{
+        transform: translateX(25px);
+    }
+    30%{
+        transform: translateX(-15px);
+    }
+    40%{
+        transform: translateX(15px);
+    }
+}
+@keyframes stop {
+    0%{
+        transform: translate(0px);
     }
 }
 .description {
