@@ -3,7 +3,10 @@
 }
 
 body {
-    background-color: rgb(255, 104, 104);
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right, #f59393 50%, #f5b0b0 50%);
+    background-size: 200px 100%;
 }
 
 
@@ -56,16 +59,89 @@ a:link {
 }
 
 .Eisen {
-    padding: 0px;
+    height: 85%;
+    width: 33.6%;
+    border-radius: 20px;
     position: absolute;
-    top: 20%;
-    left: 35%;
+    top: 16%;
+    left: 31%;
+    margin: 0 auto;
 }
 .eisenn {
     align-items: center;
 }
+
+.eisenn:hover .hiddenText {
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 2px 2px 2px black;
+    animation: moveTextLeft 2s forwards;
+}
+
+.hiddenText {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    opacity: 0;
+}
+
+.eisenn:hover .hiddenText2 {
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 2px 2px 2px black;
+    animation: moveTextRight 2s forwards;
+}
+
+.hiddenText2 {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    opacity: 0;
+}
+
+.eisenn:hover .hiddenText3 {
+    font-size: 30px;
+    font-family: monospace;
+    text-shadow: 2px 2px 2px black;
+    animation: moveTextLeft 2s forwards;
+}
+
+.hiddenText3 {
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    opacity: 0;
+}
+
+@keyframes moveTextLeft {
+    0% {
+        transform: translateX(0);
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-600px);
+        opacity: 1;
+    }
+}
+
+@keyframes moveTextRight {
+    0% {
+        transform: translateX(0);
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(500px);
+        opacity: 1;
+    }
+}
 .description {
-    margin-left: 1400px;
+    margin-left: 70%;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 10px;

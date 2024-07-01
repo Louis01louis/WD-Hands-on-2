@@ -5,6 +5,7 @@
 body {
     background: radial-gradient(#d8fad8, #85ec8d);
     background-size: cover;
+    
 }
 
 
@@ -79,8 +80,6 @@ a:link {
     margin-left: 50%;
     margin-top: 2%;
     font-size: 150px;
-    background-color: rgba(0, 0, 0, 0.116);
-    backdrop-filter: blur(5px);
 }
 .name:hover {
     transition: shake 1s ease-in-out;
