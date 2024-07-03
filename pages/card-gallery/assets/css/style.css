@@ -200,6 +200,10 @@ body {
         transform: rotate(0);;
     }
 }
+.Himmel-back {
+    position: absolute;
+    left: 80px;
+}
 .imgL3 {
     width: 200px;
     position: absolute;
