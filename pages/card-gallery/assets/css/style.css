@@ -139,12 +139,12 @@ body {
     height: 120px;
     font-size: 90px;
     text-shadow: 2px 2px 2px black;
-    animation-name: shake5;
+    animation-name: shake2;
     animation-duration: 1.1s;
     animation-iteration-count: infinite;
 }
 
-@keyframes shake5 {
+@keyframes shake2 {
 10%   {background-color:rgb(20, 178, 218); transform: translateY(-15px);}
 25%  {background-color:rgb(18, 39, 228); transform: translateX(-40px);}
 30%  {background-color:rgb(66, 219, 199); transform: translateY(15px);}
