@@ -84,6 +84,42 @@ a:link {
     width: 400px;
     font-size: 30px;
 }
+
+.name {
+    border-radius: 25px;
+    margin: 0;
+    margin-left: 40%;
+    margin-top: 2%;
+    font-size: 100px;
+    animation-name: shake;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.name:hover {
+    transition: shake 1s ease-in-out;
+    animation-name: stop;
+    animation-duration: .5s;
+}
+@keyframes shake{
+    ease-in-out
+    14%{
+        transform: translateX(15px);
+    }
+    16%{
+        transform: translateY(-25px);
+    }
+    30%{
+        transform: translateX(15px);
+    }
+    40%{
+        transform: translateY(15px);
+    }
+}
+@keyframes stop {
+    0%{
+        transform: rotate(0);;
+    }
+}
 .description {
     position: absolute;
     top: 15%;

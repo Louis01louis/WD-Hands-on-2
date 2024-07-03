@@ -2,6 +2,10 @@ a:link {
     text-decoration: none;
     color: rgb(121, 217, 241);
   }
+body {
+    background-color: rgb(205, 214, 218);
+    background-size: cover;
+}
   a:visited {
     color: white;
     background-color: transparent;
@@ -46,25 +50,24 @@ a:link {
     }
 }
 
+ /*--------------First Design--------------*/
 
-
-.Fourth_Design {
+.First_Design {
+    background-image: url(../img/frieren.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: system-ui;
     font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background: #601abc;
     height: 100px;
     }
-.imgL4 {
-    width: 200px;
-    position: absolute;
-    left: 50px;
-}
-.Design_4 {
-    background-color: #c361db;
+.Design_1 {
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
+    font-size: 30px;
     border-radius: 20px;
     width: 600px;
     height: 70px;
@@ -77,3 +80,368 @@ a:link {
     position: absolute;
     right: 50px;
 }
+.picture1 {
+    height: 12%;
+    width: 12%;
+    border-radius: 20px;
+    position: absolute;
+    top: 26%;
+    left: 1%;
+    margin: 0 auto;
+}
+.picture1:hover {
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(5px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+}
+
+ /*--------------Second Design--------------*/
+
+.Second_Design {
+    background-image: url(../img/fern.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: system-ui;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+    }
+.imgL2 {
+    width: 200px;
+    position: absolute;
+    left: 10px;
+}
+.Design_2 {
+    border-radius: 20px;
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+.name2 {
+    border-radius: 25px;
+    margin: 0;
+    width: 190px;
+    height: 120px;
+    font-size: 90px;
+    text-shadow: 2px 2px 2px black;
+    animation-name: shake5;
+    animation-duration: 1.1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake5 {
+10%   {background-color:rgb(20, 178, 218); transform: translateY(-15px);}
+25%  {background-color:rgb(18, 39, 228); transform: translateX(-40px);}
+30%  {background-color:rgb(66, 219, 199); transform: translateY(15px);}
+35% {background-color:rgb(11, 85, 221); transform: translateX(-50px);}
+}
+.shop-button {
+    position: absolute;
+    right: 50px;
+}
+
+ /*--------------Third Design--------------*/
+
+.Third_Design {
+    font-family: system-ui;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(29, 218, 243);
+    height: 100px;
+    }
+.name3 {
+    border-radius: 25px;
+    margin: 0;
+    font-size: 90px;
+    animation-name: shake3;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.name3:hover {
+    transition: shake3 1s ease-in-out;
+    animation-name: stop3;
+    animation-duration: .5s;
+}
+@keyframes shake3{
+    ease-in-out
+    14%{
+        transform: translateX(15px);
+    }
+    16%{
+        transform: translateY(-25px);
+    }
+    30%{
+        transform: translateX(15px);
+    }
+    40%{
+        transform: translateY(15px);
+    }
+}
+@keyframes stop3 {
+    0%{
+        transform: rotate(0);;
+    }
+}
+.imgL3 {
+    width: 200px;
+    position: absolute;
+    left: 100px;
+}
+.Video {
+    width: 300px;
+    height: 130px;
+    position: absolute;
+    left: 300px;
+}
+.Design_3 {
+    border-radius: 20px;
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+.shop-button {
+    position: absolute;
+    right: 50px;
+}
+
+ /*--------------Fourth Design--------------*/
+
+.Fourth_Design {
+    background: radial-gradient(#d8fad8, #85ec8d);
+    background-size: cover;
+    font-family: system-ui;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+    }
+.name4 {
+    border-radius: 25px;
+    margin: 0;
+    margin-left: 0%;
+    width: 260px;
+    height: 120px;
+    font-size: 90px;
+    animation-name: shake4;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.name4:hover {
+    transition: shake 1s ease-in-out;
+    animation-name: stop4;
+    animation-duration: .5s;
+}
+@keyframes shake4{
+    ease-in-out
+    14%{
+        transform: translateY(-15px);
+    }
+    16%{
+        transform: rotate(-10deg);
+    }
+    30%{
+        transform: translateY(15px);
+    }
+    40%{
+        transform: rotate(10deg);
+    }
+}
+@keyframes stop4 {
+    10%   {background-color:rgb(25, 187, 187); transform: translateY(-15px);}
+    25%  {background-color:rgb(69, 200, 209); transform: translateX(-15px);}
+    30%  {background-color:rgb(149, 213, 238); transform: translateY(15px);}
+    35% {background-color:rgb(233, 251, 252); transform: translateX(15px);}
+}
+.circle {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+.imgL5 {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+.beer {
+    width: 200px;
+    position: absolute;
+    right: 200px;
+}
+.imgL4 {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+.Design_4 {
+    border-radius: 20px;
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+.shop-button {
+    position: absolute;
+    right: 50px;
+}
+
+ /*--------------Fifth Design--------------*/
+
+.Fifth_Design {
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right, #f59393 50%, #f5b0b0 50%);
+    background-size: 200px 100%;
+    font-family: system-ui;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100px;
+    }
+.Design_5 {
+    background-color: #c361db;
+    border-radius: 20px;
+    width: 450px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+.name5 {
+    border-radius: 25px;
+    margin: 0;
+    width: 200px;
+    font-size: 90px;
+    animation-name: shake5;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.name5:hover {
+    transition: shake 1s ease-in-out;
+    animation-name: stop5;
+    animation-duration: .5s;
+}
+@keyframes shake5{
+    ease-in-out
+    14%{
+        transform: translateX(-15px);
+    }
+    16%{
+        transform: translateX(25px);
+    }
+    30%{
+        transform: translateX(-15px);
+    }
+    40%{
+        transform: translateX(15px);
+    }
+}
+@keyframes stop5 {
+    0%{
+        transform: translate(0px);
+    }
+}
+.Eisen {
+    height: 10%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 1200px;
+    right: 300px;
+}
+.eisenn {
+    align-items: center;
+}
+
+.hiddenText {
+    position: absolute;
+    opacity: 0;
+}
+.hiddenText2 {
+    position: absolute;
+    top: 50px;
+    opacity: 0;
+}
+.hiddenText3 {
+    position: absolute;
+    top: 60px;
+    opacity: 0;
+}
+.eisenn:hover .hiddenText {
+    font-size: 15px;
+    font-family: monospace;
+    text-shadow: 2px 2px 2px black;
+    animation: moveTextLeft 2s forwards;
+}
+.eisenn:hover .hiddenText2 {
+    font-size: 15px;
+    font-family: monospace;
+    text-shadow: 2px 2px 2px black;
+    animation: moveTextRight 2s forwards;
+}
+.eisenn:hover .hiddenText3 {
+    font-size: 15px;
+    font-family: monospace;
+    text-shadow: 2px 2px 2px black;
+    animation: moveTextLeft 2s forwards;
+}
+@keyframes moveTextLeft {
+    0% {
+        transform: translateX(0);
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+}
+
+@keyframes moveTextRight {
+    0% {
+        transform: translateX(0);
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(90px);
+        opacity: 1;
+    }
+}
+.shop-button {
+    position: absolute;
+    right: 50px;
+}
+
